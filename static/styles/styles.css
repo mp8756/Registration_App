@@ -1,0 +1,38 @@
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+
+}
+
+body{
+    height: 100%;
+    background-color: rgb(148, 196, 196);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    width: 25%;
+    background-color: rgb(228, 117, 117);
+    padding: 5px;
+    outline: none;
+    border: 1px solid rgb(35, 36, 34);
+    border-radius: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    display: flex;
+    width: 100%;
+}
+
+
+.formcontainer{
+    width: 100%;
+}
